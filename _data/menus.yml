@@ -1,0 +1,32 @@
+header:
+  - url: /api
+    title: API Documentation
+    identifier: api
+
+footer-social-media:
+  - url: http://www.facebook.com
+    title: facebook
+    identifier: facebook
+    icon: fa-facebook-square
+  - url: http://www.twitter.com
+    title: twitter
+    identifier: twitter
+    icon: fa-twitter-square
+  - url: http://www.email.com
+    title: email
+    identifier: email
+    icon: fa-envelope-o
+
+footer-site-map:
+  - url: /classes
+    title: Classes
+    identifier: classes
+  - url: /hire-us
+    title: Hire Us
+    identifier: hire-us
+  - url: /give
+    title: Give
+    identifier: give
+  - url: /volunteer
+    title: Volunteer
+    identifier: volunteer
