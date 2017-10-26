@@ -20,5 +20,6 @@ button {
 
 button {
     background-color: $color-primary;
+    @include box-shadow($box-shadow1...);
     padding: $padding-button;
 }
