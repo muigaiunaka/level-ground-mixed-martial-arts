@@ -1,7 +1,21 @@
 header:
-  - url: /api
-    title: API Documentation
-    identifier: api
+  - url: /classes
+    title: Classes
+    identifier: classes
+  - url: /hire-us
+    title: Hire Us
+    identifier: hire-us
+
+header-logo:
+  - url: /
+    title: logo
+    identifier: logo
+    logo-image: "/assets/img/lg_logo.png | relative_url"
+
+header-cta:
+  - url: /donate
+    title: Donate
+    identifier: donatee
 
 footer-social-media:
   - url: http://www.facebook.com

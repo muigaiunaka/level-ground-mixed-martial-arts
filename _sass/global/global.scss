@@ -17,3 +17,8 @@ button {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+button {
+    background-color: $color-primary;
+    padding: $padding-button;
+}
