@@ -1,5 +1,7 @@
 ---
 layout: gym
+title: Gym
+permalink: /gym/
 hero-banner:
     media:
         video: 

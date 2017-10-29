@@ -1,5 +1,7 @@
 ---
 layout: staff
+title: Staff
+permalink: /staff/
 hero-banner:
     media:
         video: 

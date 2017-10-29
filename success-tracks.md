@@ -1,5 +1,7 @@
 ---
 layout: success-tracks
+title: Success Tracks
+permalink: /success-tracks/
 mixed-media-banner:
     background-image: /assets/image/landing-card-visit-the-gym.jpg
     footnote: Sounds like you?

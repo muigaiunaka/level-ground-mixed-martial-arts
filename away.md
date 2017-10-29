@@ -1,5 +1,7 @@
 ---
 layout: away
+title: Away
+permalink: /away/
 hero-banner:
     media:
         video: 

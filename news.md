@@ -1,5 +1,7 @@
 ---
 layout: news
+title: News
+permalink: /news/
 hero-banner:
     media:
         video: 
