@@ -30,14 +30,14 @@ mixed-media-banner:
           description: Check out our Martial Arts and Yoga classes.  Or, sign up for personal training with one of our Student Trainers. 
           cta:
             text: See Classes
-            link: /away
+            link: /gym
           footnote:   
         - image: /assets/image/landing-card-we-come-to-you.jpg
           title: We Come to You
           description: Host a LG Boxing Bootcamp or Self Defense session for your company or group onsite. 
           cta:
             text: Hire Us
-            link: /hire-us
+            link: /away
           footnote: 
 
 text-cta-banner:

@@ -25,7 +25,7 @@
         position: relative;
         width: 100%;
 
-        @media only screen and (max-width: $max-mobile-width) {
+        @media only screen and (max-width: $max-mobile-width) and (device-orientation: portrait) {
             height: 100%;
             left: -50%;
             max-width: none;

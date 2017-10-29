@@ -3,10 +3,10 @@
     background-color: $color-white;
     display: flex;
     float: left;
-    height: 100vh;
     justify-content: center;
     max-height: $max-banner-height;
     margin: 0 auto;
+    min-height: 100vh;
     position: relative;
     right: 0;
     width: 100%;

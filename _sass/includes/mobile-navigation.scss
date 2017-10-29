@@ -26,6 +26,7 @@
             }
             input:checked~ul {
                 opacity: 1;
+                overflow: scroll;
                 transform: scale(1.0, 1.0);
             }
             input:checked~span {
