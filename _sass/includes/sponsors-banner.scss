@@ -8,7 +8,7 @@
         align-items: center;
         display: flex;
         flex-flow: row wrap;
-        height: 100vh;
+        min-height: 100vh;
         justify-content: center;
         margin: 0 auto;
         max-height: $max-banner-height;
