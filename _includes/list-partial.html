@@ -1,0 +1,22 @@
+<section class="list-partial">
+    {% for list in page.lists %}
+        {% if list.title %}
+            <h3>{{ list.title }}</h3>
+        {% endif %}
+
+        {% for bullet in list.bullets %}
+
+            {% if bullet.title %}
+                <p>{{ bullet.title }}</p>
+            {% endif %}
+            {% if bullet.description %}
+                <p>{{ bullet.description }}</p>
+            {% endif %}
+
+        {% endfor %}
+
+        {% if list.footnote %}
+            <em>{{ list.footnote }}</em>
+        {% endif %}
+    {% endfor %}
+</section>

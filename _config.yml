@@ -33,6 +33,21 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Forestry Settings
+collections:
+  staff:
+    output: true
+    permalink: /:collection/:title/
+  posts:
+    output: true
+    permalink: /news/:title/
+
+
+# Site Defaults
+default_image: /assets/image/landing-hero.jpg
+default_white_image: /assets/image/default_white.jpg
+default_logo: /assets/image/lg_logo.png
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,21 +1,27 @@
 body {
     font-family: $font-family-primary;
-    font-size: 16px;
+    font-size: 15px;
 }
 p {
     font-family: $font-family-secondary;
+    font-size: 1em;
+    line-height: 1.5;
 }
 h1 {
-    font-size: 2.45em;
+    font-size: 4em;
+    line-height: 1.5;
 }
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
+    line-height: 1.5;
 }
 h3 {
-    font-size: 1.75em;
+    font-size: 1.95em;
+    line-height: 1.35;
 }
 h4 {
     font-size: 1.4em;
+    line-height: 1.35;
 }
 h5 {
     font-size: 1.1em;
@@ -27,7 +33,13 @@ small {
     font-family: $font-family-secondary;
     font-size: 0.8em;
 }
+p {
+    a {
+        color: $color-primary;
+    }
+}
 a {
+    color: $color-primary;
     transition: all 200ms ease-in-out;
 }
 blockquote {
@@ -35,4 +47,23 @@ blockquote {
 }
 li {
     font-family: $font-family-secondary;
+}
+
+// helper classes
+.text-centered {
+    text-align: center;
+}
+.white-bg ~ * {
+    i,
+    em,
+    strong,
+    b, 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $color-black!important;
+    }
 }

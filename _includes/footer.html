@@ -1,8 +1,8 @@
 <footer>
     <section>
         <ul>
-            {% for item in site.menus.footer-social-media %}
-            <li class="menu-item-{{ loop.index }}">
+            {% for item in site.menus.social-media %}
+            <li class="social-media-{{ loop.index }}">
                 <a href="{{ item.url }}" title="Go to {{ item.title }}">
                     <i class="fa {{ item.icon }}" aria-hidden="true"></i>
                 </a>
@@ -11,8 +11,8 @@
         </ul>
         <ul>
             <h5>Site Map</h5>
-            {% for item in site.menus.footer-site-map %}
-            <li class="menu-item-{{ loop.index }}">
+            {% for item in site.menus.site-map %}
+            <li class="footer-menu-item-{{ loop.index }}">
                 <a href="{{ item.url }}" title="Go to {{ item.title }}">
                     {{ item.title }}
                 </a>
@@ -26,7 +26,7 @@
             <li>50 Milk Street, Floor 17</li>
             <li>Boston, MA, 02109</li>
             <li>410-533-2210</li>
-            <a href=”mailto=ali@levelgroundmma.org”>ali@levelgroundmma.org</a>
+            <a href=mailto:ali@levelgroundmma.org target="_blank">ali@levelgroundmma.org</a>
         </ul>
     </section>
     <hr>
@@ -37,5 +37,7 @@
         <br><br>
         Designed and Developed by <a href="http://www.resilientcoders.org">Resilient Coders</a>
     </small>
-    <img src="{{ '/assets/img/lg_logo.png' | relative_url }}" alt="logo" />
+    <a href="/">
+        <img src="{{ '/assets/image/lg_logo.png' | relative_url }}" alt="logo" />
+    </a>
 </footer>

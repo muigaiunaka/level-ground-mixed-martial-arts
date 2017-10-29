@@ -1,8 +1,12 @@
 $logo-image-width: 40px;
+
 footer {
     background-color: $color-black;
     float: left;
-    padding: $padding-footer;
+    padding: $spacer-lg $spacer-lg;
+    @media only screen and (max-width: 768px) {
+        padding: $spacer-sm $spacer-sm;
+    }
     width: 100%;
     section {
         float: left;
@@ -19,7 +23,7 @@ footer {
         &:last-of-type {
             float: right;
             h5 {
-                color: white;
+                color: $color-white;
             }
             li {
                 margin: 0 0 10px 0;
@@ -27,7 +31,7 @@ footer {
             }
             li, a {
                 clear: both;
-                color: white;
+                color: $color-white;
                 display: block;
                 float: left; 
             }
@@ -42,11 +46,11 @@ footer {
         padding: 0;
     }
     li {
-        color: white;
+        color: $color-white;
         display: inline-block;
         margin-right: 10px;
         a {
-            color: white;
+            color: $color-white;
         }
     }
     .fa, i.fa {
@@ -58,7 +62,7 @@ footer {
         width: 100%;
     }
     small {
-        color: white;
+        color: $color-white;
         float: left;
         width: calc( 100% - #{$logo-image-width} );
 
