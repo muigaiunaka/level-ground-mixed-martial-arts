@@ -21,9 +21,6 @@
     }
     .sponsors-banner-title {
         width: 100%;
-        @media only screen and (max-width: $max-mobile-width) {
-            margin-top: $spacer-xl;
-        }
     }
     a {
         filter: grayscale(100%);

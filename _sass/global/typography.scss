@@ -1,6 +1,7 @@
 body {
     font-family: $font-family-primary;
     font-size: 15px;
+    -webkit-font-smoothing: antialiased;
 }
 p {
     font-family: $font-family-secondary;
@@ -10,6 +11,9 @@ p {
 h1 {
     font-size: 4em;
     line-height: 1.5;
+    @media only screen and (max-width: $max-mobile-width) {
+        font-size: 3em;
+    }
 }
 h2 {
     font-size: 2.2em;

@@ -1,5 +1,6 @@
 <section class="list-partial">
     {% for list in page.lists %}
+    <div class="list-partial-container">
         {% if list.title %}
             <h3>{{ list.title }}</h3>
         {% endif %}
@@ -7,10 +8,10 @@
         {% for bullet in list.bullets %}
 
             {% if bullet.title %}
-                <p>{{ bullet.title }}</p>
+                <p class="list-partial-bullet-title">{{ bullet.title }}</p>
             {% endif %}
             {% if bullet.description %}
-                <p>{{ bullet.description }}</p>
+                <p class="list-partial-bullet-description">{{ bullet.description }}</p>
             {% endif %}
 
         {% endfor %}
@@ -18,5 +19,6 @@
         {% if list.footnote %}
             <em>{{ list.footnote }}</em>
         {% endif %}
+    </div>
     {% endfor %}
 </section>
